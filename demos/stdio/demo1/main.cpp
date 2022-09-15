@@ -18,6 +18,7 @@ int main() {
     cin >> n1 >> ch >> n2; // leaves behind \n
     cout << n1 << " + " << n2 << " = " << n1+n2 << endl;
     cout << "Hi, what's your name?: ";
+    cin >> ws;
     // cin >> ws; // discard any whitespace character and stop at the character
     // ws makes the input wait until non-whitespace character is found
     // need to use it carefully!
